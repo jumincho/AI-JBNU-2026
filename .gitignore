@@ -1,0 +1,32 @@
+# Local files
+private/
+raw/
+**/.ipynb_checkpoints/
+**/.distilly-install.json
+**/knowledge/
+**/versions/
+*_original.txt
+.env
+.env.*
+!.env.example
+
+# Distilly installed in this folder, and the skills it generates here
+# (a generated skill folder can contain your source material)
+.claude/skills/distilly/
+.agents/skills/distilly/
+/skills/
+
+# Voice recordings and generated audio
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.webm
+*.flac
+
+*.zip
+*.pt
+*.safetensors
+__pycache__/
+.venv/
