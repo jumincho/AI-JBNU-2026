@@ -15,7 +15,7 @@
 | **A. Colab만으로** | Google 계정 | 직접 입력합니다 |
 | **B. VSCode와 함께** | VSCode, Codex 또는 Claude Code, Google 계정 | professor 스킬이 만들어 줍니다 |
 
-강의 자료는 [`AI-JBNU-2026-jumincho.pptx`](AI-JBNU-2026-jumincho.pptx)에 있습니다.
+강의 자료는 [`AI-JBNU-2026-jumincho.pptx`](AI-JBNU-2026-jumincho.pptx)에 있습니다. GitHub에서 내려받기 어려우면 [Google Drive에서 받기](https://drive.google.com/uc?export=download&id=1ZDCGtFEGbVQnbFs1ScRPzzUBe4a-W6bT)를 누르세요.
 
 ## A. Colab만으로 하기 (VSCode 없이, 10분)
 
