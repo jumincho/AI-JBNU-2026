@@ -35,14 +35,14 @@ $professor 교수님, 연구가 너무 하기 싫어요.
 CUDA GPU가 연결된 커널을 사용합니다. Colab 사용 시에는 [런타임 이용 범위](https://research.google.com/colaboratory/faq.html)를 확인하세요.
 
 1. 실행 환경을 확인하고 패키지를 설치합니다.
-2. 강사가 따로 전달한 `voice_sample.mp3`를 준비합니다.
+2. 저장소에 포함된 [`voice_sample.mp3`](voice_sample.mp3)를 사용합니다. Colab에서는 노트북이 자동으로 가져옵니다.
 3. OmniVoice 모델과 목소리를 한 번 불러옵니다.
 4. VSCode 에이전트에서 `professor` 스킬로 짧은 답변을 만듭니다.
 5. 답변을 노트북에 붙여넣고 합성·재생합니다.
 6. WAV와 답변 TXT를 함께 받습니다.
 
 언어·스타일·속도 같은 생성 옵션은 건드리지 않고 기본값을 사용합니다.
-음성 파일과 생성된 결과는 GitHub에 올리지 않습니다. 노트북을 공유할 때는 실행 출력을 지워주세요.
+참조 음성은 저장소의 `voice_sample.mp3`를 사용합니다. 생성된 결과는 GitHub에 올리지 않고, 노트북을 공유할 때는 실행 출력을 지워주세요.
 
 음성용 답변은 이렇게 요청하면 됩니다.
 
@@ -60,6 +60,7 @@ Claude Code에서는 `$professor` 대신 `/professor`를 사용합니다.
 | `.agents/skills/professor/SKILL.md` | Codex 스킬 |
 | `.claude/skills/professor/SKILL.md` | Claude Code 스킬 |
 | `notebooks/professor_voice_lab.ipynb` | 음성 합성 실습 |
+| `voice_sample.mp3` | 실습용 참조 음성 |
 
 스킬은 [Distilly](https://github.com/titanwings/distilly)로 만들었고, 음성 합성에는
 [OmniVoice](https://github.com/k2-fsa/OmniVoice)를 사용합니다.
