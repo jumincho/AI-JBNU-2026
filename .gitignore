@@ -1,0 +1,22 @@
+# Local files
+private/
+raw/
+prof/
+**/_professor_lab/
+**/.ipynb_checkpoints/
+**/.distilly-install.json
+**/knowledge/
+**/versions/
+*_original.txt
+.env
+.env.*
+!.env.example
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.zip
+*.pt
+*.safetensors
+__pycache__/
+.venv/
